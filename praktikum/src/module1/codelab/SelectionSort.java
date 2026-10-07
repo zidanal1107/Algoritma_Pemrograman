@@ -1,7 +1,7 @@
 package module1.codelab;
 
 public class SelectionSort {
-    int[] arr;
+    private int[] arr;
     public SelectionSort(int[] arr) {
         this.arr=arr;
         int lengthArr = arr.length;
