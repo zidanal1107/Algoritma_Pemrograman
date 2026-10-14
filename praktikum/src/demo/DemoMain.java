@@ -1,4 +1,7 @@
-package module1.demo;
+package demo;
+
+import demo.module1.BubbleSort;
+import demo.module1.SelectionSort;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

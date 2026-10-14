@@ -1,4 +1,4 @@
-package module1.demo;
+package demo.module1;
 
 public class SelectionSort {
     private int[] data;
