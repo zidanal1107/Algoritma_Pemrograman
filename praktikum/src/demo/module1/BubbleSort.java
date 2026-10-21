@@ -2,9 +2,11 @@ package demo.module1;
 
 public class BubbleSort {
     private int[] data;
+    private String[] name;
 
-    public void Ascending(int[] data) {
+    public void Ascending(int[] data, String[] name) {
         this.data = data;
+        this.name = name;
         int lengthData = data.length;
         System.out.print("Before bubble sort: ");
         printData();
@@ -16,6 +18,10 @@ public class BubbleSort {
                     int temp = data[j];
                     data[j] = data[j + 1];
                     data[j + 1] = temp;
+
+                    String tempName = name[j];
+                    name[j] = name[j + 1];
+                    name[j + 1] = tempName;
                     swapped = true;
                 }
             }
@@ -28,8 +34,9 @@ public class BubbleSort {
         printData();
         System.out.println();
     }
-    public void Descending(int[] data) {
+    public void Descending(int[] data, String[] name) {
         this.data = data;
+        this.name = name;
         int lengthData = data.length;
         System.out.print("Before bubble sort: ");
         printData();
@@ -41,6 +48,10 @@ public class BubbleSort {
                     int temp = data[j];
                     data[j] = data[j + 1];
                     data[j + 1] = temp;
+
+                    String tempName = name[j];
+                    name[j] = name[j + 1];
+                    name[j + 1] = tempName;
                     swapped = true;
                 }
             }
@@ -53,9 +64,10 @@ public class BubbleSort {
         printData();
         System.out.println();
     }
+
     public void printData() {
-        for (int d : data) {
-            System.out.print(d + " ");
+        for (int i=0;i< data.length;i++) {
+            System.out.print(name[i] + " - " + data[i]+ "M | ");
         }
     }
 }

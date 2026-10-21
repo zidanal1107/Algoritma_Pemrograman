@@ -1,96 +1,92 @@
 package demo;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import demo.data.GetData;
 import demo.module1.BubbleSort;
 import demo.module1.SelectionSort;
+import demo.module2.InsertionSort;
+import demo.module2.ShellSort;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class DemoMain {
     static int[] data;
+    static String[] name;
 
-    static boolean homeMenu(Scanner in) {
+    static void OptionSort(Scanner in, String sortOrder) {
+        BubbleSort bs = new BubbleSort();
+        SelectionSort ss = new SelectionSort();
+        InsertionSort is = new InsertionSort();
+        ShellSort shs = new ShellSort();
+
+        System.out.printf("--- %s Menu ---\n",sortOrder);
+        System.out.println("1. Bubble sort.\n2. Selection sort.\n3. Insertion sort.\n4. Shell sort.");
+        System.out.print("Enter choice: ");
+        int optionAs = in.nextInt();
+        in.nextLine();
+
+        if (sortOrder.equals("Ascending")) {
+            switch (optionAs) {
+                case 1 -> bs.Ascending(data,name);
+                case 2 -> ss.Ascending(data,name);
+                case 3 -> is.Ascending(data,name);
+                case 4 -> shs.Ascending(data,name);
+                default -> System.out.println("Invalid choice");
+            }
+        } else {
+            switch (optionAs) {
+                case 1 -> bs.Descending(data,name);
+                case 2 -> ss.Descending(data,name);
+                case 3 -> is.Descending(data,name);
+                case 4 -> shs.Descending(data,name);
+                default -> System.out.println("Invalid choice");
+            }
+        }
+    }
+
+    static boolean homeMenu(Scanner in, GetData test) {
+        JsonNode datas = test.getData();
+        int size = datas.size();
+        if (datas != null && !datas.isEmpty()) {
+            data = new int[size];
+            name = new String[size];
+            for (int i=0;i< size;i++) {
+                data[i] = datas.get(i).get("followers").asInt();
+                name[i] = datas.get(i).get("name").asText();
+            }
+        }
         System.out.println("=== HOME MENU ===");
-        System.out.println("1. Input count like.\n2. Show like with ascending.\n3. Show like with descending.\n4. Exit");
-        System.out.print("Select option (1-4): ");
+        System.out.println("1. Show like with ascending.\n2. Show like with descending.\n3. Exit");
+        System.out.print("Select option (1-3): ");
         int option = in.nextInt();
         in.nextLine();
 
-        BubbleSort bs = new BubbleSort();
-        SelectionSort ss = new SelectionSort();
 
-        switch (option) {
-            case 1:
-                System.out.print("Enter data size: ");
-                int countData = in.nextInt();
-                in.nextLine();
-                data = new int[countData];
-
-                for (int i = 0; i < countData; i++) {
-                    System.out.printf("Enter like count #%d: ", i + 1);
-                    data[i] = in.nextInt();
-                    in.nextLine();
-                }
-                System.out.println();
-                return true;
-            case 2:
-                if (data == null) {
-                    System.out.println("\nData is null.\n");
-                } else {
-                    System.out.println("--- Ascending Menu ---");
-                    System.out.println("1. Bubble sort.\n2. Selection sort.");
-                    System.out.print("Enter choice: ");
-                    int optionAs = in.nextInt();
-                    in.nextLine();
-                    if (optionAs == 1) {
-                        System.out.println("\nAscending with bubble sort:");
-                        bs.Ascending(data);
-                        System.out.println();
-                    } else if (optionAs == 2) {
-                        System.out.println("\nAscending with selection sort:");
-                        ss.Ascending(data);
-                        System.out.println();
-                    } else {
-                        throw new IllegalArgumentException("Choice 1-2");
-                    }
-                }
-                return true;
-            case 3:
-                if (data == null) {
-                    System.out.println("\nData is null.\n");
-                } else {
-                    System.out.println("--- Ascending Menu ---");
-                    System.out.println("1. Bubble sort.\n2. Selection sort.");
-                    System.out.print("Enter choice: ");
-                    int optionDes = in.nextInt();
-                    in.nextLine();
-                    if (optionDes == 1) {
-                        System.out.println("\nDescending with bubble sort:");
-                        bs.Descending(data);
-                        System.out.println();
-                    } else if (optionDes == 2) {
-                        System.out.println("\nDescending with selection sort:");
-                        ss.Descending(data);
-                        System.out.println();
-                    } else {
-                        throw new IllegalArgumentException("Choice 1-2");
-                    }
-                }
-                return true;
-            case 4:
-                System.out.println("Exit the program");
-                return false;
-            default:
-                throw new IllegalArgumentException("Choose 1-4");
+        String sort;
+        if (option == 1) {
+            sort = "Ascending";
+            OptionSort(in, sort);
+            return true;
+        } else if (option == 2) {
+            sort = "Descending";
+            OptionSort(in, sort);
+            return true;
+        } else if (option == 3) {
+            System.out.println("Exit the program");
+            return false;
+        } else {
+            throw new IllegalArgumentException("Choose 1-3");
         }
     }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         boolean running = true;
+        GetData test = new GetData();
         while (running) {
             try {
-                running = homeMenu(in);
+                running = homeMenu(in,test);
             } catch (InputMismatchException im) {
                 System.out.println("\nERROR! Invalid option\n");
                 in.nextLine();

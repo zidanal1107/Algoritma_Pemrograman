@@ -1,4 +1,4 @@
-package module1.codelab;
+package codelab.module1;
 
 public class SelectionSort {
     private int[] arr;

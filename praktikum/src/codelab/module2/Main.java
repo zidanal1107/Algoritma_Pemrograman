@@ -1,4 +1,4 @@
-package module2.codelab;
+package codelab.module2;
 
 public class Main {
 

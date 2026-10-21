@@ -2,9 +2,11 @@ package demo.module1;
 
 public class SelectionSort {
     private int[] data;
+    private String[] name;
 
-    public void Ascending(int[] data) {
+    public void Ascending(int[] data,String[] name) {
         this.data = data;
+        this.name = name;
         int lengthData = data.length;
         System.out.print("Before selection sort: ");
         printData();
@@ -19,6 +21,10 @@ public class SelectionSort {
             int temp = data[minIdx];
             data[minIdx] = data[i];
             data[i] = temp;
+
+            String tempName = name[minIdx];
+            name[minIdx] = name[i];
+            name[i] = tempName;
             System.out.printf("Iteration #%d\t\t : ", i+1);
             printData();
             System.out.println();
@@ -27,8 +33,9 @@ public class SelectionSort {
         printData();
         System.out.println();
     }
-    public void Descending(int[] data) {
+    public void Descending(int[] data, String[] name) {
         this.data = data;
+        this.name = name;
         int lengthData = data.length;
         System.out.print("Before selection sort: ");
         printData();
@@ -43,6 +50,10 @@ public class SelectionSort {
             int temp = data[maxIdx];
             data[maxIdx] = data[i];
             data[i] = temp;
+
+            String tempName = name[maxIdx];
+            name[maxIdx] = name[i];
+            name[i] = tempName;
             System.out.printf("Iteration #%d\t\t : ", i+1);
             printData();
             System.out.println();
@@ -52,8 +63,8 @@ public class SelectionSort {
         System.out.println();
     }
     public void printData() {
-        for (int d : data) {
-            System.out.print(d + " ");
+        for (int i=0;i< data.length;i++) {
+            System.out.print(name[i] + " - "+data[i]+"M | ");
         }
     }
 }

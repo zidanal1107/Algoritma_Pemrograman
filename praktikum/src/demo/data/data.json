@@ -1,0 +1,702 @@
+[
+  {
+    "name": "Paul Pogba",
+    "username": "@paulpogba",
+    "platform": "Instagram",
+    "followers": 61,
+    "country": "Prancis"
+  },
+  {
+    "name": "Mohamed Salah",
+    "username": "@mosalah",
+    "platform": "Instagram",
+    "followers": 63,
+    "country": "Mesir"
+  },
+  {
+    "name": "Ria Ricis",
+    "username": "@riaricis1795",
+    "platform": "YouTube",
+    "followers": 35,
+    "country": "Indonesia"
+  },
+  {
+    "name": "Justin Bieber",
+    "username": "@justinbieber",
+    "platform": "Instagram",
+    "followers": 294,
+    "country": "Kanada"
+  },
+  {
+    "name": "KallmeKris",
+    "username": "@kallmekris",
+    "platform": "TikTok",
+    "followers": 50,
+    "country": "Kanada"
+  },
+  {
+    "name": "MrBeast",
+    "username": "@mrbeast",
+    "platform": "YouTube",
+    "followers": 310,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Lionel Messi",
+    "username": "@leomessi",
+    "platform": "Instagram",
+    "followers": 504,
+    "country": "Argentina"
+  },
+  {
+    "name": "KSI",
+    "username": "@ksi",
+    "platform": "YouTube",
+    "followers": 24,
+    "country": "Inggris"
+  },
+  {
+    "name": "Kourtney Kardashian",
+    "username": "@kourtneykardash",
+    "platform": "Instagram",
+    "followers": 223,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Jungkook",
+    "username": "@jungkook.97",
+    "platform": "Instagram",
+    "followers": 50,
+    "country": "Korea Selatan"
+  },
+  {
+    "name": "James Charles",
+    "username": "@jamescharles",
+    "platform": "YouTube",
+    "followers": 23,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Kendall Jenner",
+    "username": "@kendalljenner",
+    "platform": "Instagram",
+    "followers": 293,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Zach King",
+    "username": "@zachking",
+    "platform": "TikTok",
+    "followers": 82,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Kimberly Loaiza",
+    "username": "@kimberly.loaiza",
+    "platform": "TikTok",
+    "followers": 81,
+    "country": "Meksiko"
+  },
+  {
+    "name": "Jake Paul",
+    "username": "@jakepaul",
+    "platform": "YouTube",
+    "followers": 20,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Khabib Nurmagomedov",
+    "username": "@khabib_nurmagomedov",
+    "platform": "Instagram",
+    "followers": 37,
+    "country": "Rusia"
+  },
+  {
+    "name": "Maluma",
+    "username": "@maluma",
+    "platform": "Instagram",
+    "followers": 64,
+    "country": "Kolombia"
+  },
+  {
+    "name": "Ruben Onsu",
+    "username": "@ruben_onsu",
+    "platform": "Instagram",
+    "followers": 42,
+    "country": "Indonesia"
+  },
+  {
+    "name": "V (Kim Taehyung)",
+    "username": "@thv",
+    "platform": "Instagram",
+    "followers": 65,
+    "country": "Korea Selatan"
+  },
+  {
+    "name": "Ronaldinho Gaúcho",
+    "username": "@ronaldinho",
+    "platform": "Instagram",
+    "followers": 76,
+    "country": "Brasil"
+  },
+  {
+    "name": "Lisa",
+    "username": "@lalalalisa_m",
+    "platform": "Instagram",
+    "followers": 104,
+    "country": "Thailand"
+  },
+  {
+    "name": "Cardi B",
+    "username": "@iamcardib",
+    "platform": "Instagram",
+    "followers": 167,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Jisoo",
+    "username": "@sooyaaa__",
+    "platform": "Instagram",
+    "followers": 79,
+    "country": "Korea Selatan"
+  },
+  {
+    "name": "Nia Ramadhani Bakrie",
+    "username": "@ramadhaniabakrie",
+    "platform": "Instagram",
+    "followers": 23,
+    "country": "Indonesia"
+  },
+  {
+    "name": "J-Hope",
+    "username": "@uarmyhope",
+    "platform": "Instagram",
+    "followers": 49,
+    "country": "Korea Selatan"
+  },
+  {
+    "name": "J Balvin",
+    "username": "@jbalvin",
+    "platform": "Instagram",
+    "followers": 50,
+    "country": "Kolombia"
+  },
+  {
+    "name": "BTS Official",
+    "username": "@bts.bighitofficial",
+    "platform": "Instagram",
+    "followers": 75,
+    "country": "Korea Selatan"
+  },
+  {
+    "name": "Chris Brown",
+    "username": "@chrisbrownofficial",
+    "platform": "Instagram",
+    "followers": 144,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Raffi Ahmad & Nagita Slavina",
+    "username": "@raffinagita1717",
+    "platform": "Instagram",
+    "followers": 75,
+    "country": "Indonesia"
+  },
+  {
+    "name": "Rosé",
+    "username": "@roses_are_rosie",
+    "platform": "Instagram",
+    "followers": 78,
+    "country": "Korea Selatan"
+  },
+  {
+    "name": "Khloé Kardashian",
+    "username": "@khloekardashian",
+    "platform": "Instagram",
+    "followers": 308,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Camila Cabello",
+    "username": "@camila_cabello",
+    "platform": "Instagram",
+    "followers": 65,
+    "country": "Kuba"
+  },
+  {
+    "name": "Will Smith",
+    "username": "@willsmith",
+    "platform": "TikTok",
+    "followers": 73,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Loren Gray",
+    "username": "@lorengray",
+    "platform": "TikTok",
+    "followers": 54,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Emma Chamberlain",
+    "username": "@emmachamberlain",
+    "platform": "YouTube",
+    "followers": 12,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Conor McGregor",
+    "username": "@thenotoriousmma",
+    "platform": "Instagram",
+    "followers": 47,
+    "country": "Irlandia"
+  },
+  {
+    "name": "Nusret Gökçe (Salt Bae)",
+    "username": "@nusr_et",
+    "platform": "Instagram",
+    "followers": 54,
+    "country": "Turki"
+  },
+  {
+    "name": "Charli D'Amelio",
+    "username": "@charlidamelio",
+    "platform": "TikTok",
+    "followers": 155,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Bad Bunny",
+    "username": "@badbunnypr",
+    "platform": "Instagram",
+    "followers": 45,
+    "country": "Puerto Riko"
+  },
+  {
+    "name": "Virat Kohli",
+    "username": "@virat.kohli",
+    "platform": "Instagram",
+    "followers": 270,
+    "country": "India"
+  },
+  {
+    "name": "Karim Benzema",
+    "username": "@karimbenzema",
+    "platform": "Instagram",
+    "followers": 76,
+    "country": "Prancis"
+  },
+  {
+    "name": "Demi Lovato",
+    "username": "@ddlovato",
+    "platform": "Instagram",
+    "followers": 156,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Marcelo Vieira",
+    "username": "@marcelotwelve",
+    "platform": "Instagram",
+    "followers": 67,
+    "country": "Brasil"
+  },
+  {
+    "name": "Sergio Ramos",
+    "username": "@sergioramos",
+    "platform": "Instagram",
+    "followers": 64,
+    "country": "Spanyol"
+  },
+  {
+    "name": "Katy Perry",
+    "username": "@katyperry",
+    "platform": "Instagram",
+    "followers": 206,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Brent Rivera",
+    "username": "@brentrivera",
+    "platform": "TikTok",
+    "followers": 48,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Dixie D'Amelio",
+    "username": "@dixiedamelio",
+    "platform": "TikTok",
+    "followers": 56,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "PewDiePie",
+    "username": "@pewdiepie",
+    "platform": "YouTube",
+    "followers": 111,
+    "country": "Swedia"
+  },
+  {
+    "name": "Beyoncé",
+    "username": "@beyonce",
+    "platform": "Instagram",
+    "followers": 318,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "David Beckham",
+    "username": "@davidbeckham",
+    "platform": "Instagram",
+    "followers": 88,
+    "country": "Inggris"
+  },
+  {
+    "name": "Hasbulla Magomedov",
+    "username": "@hasbulla.hushetskiy",
+    "platform": "Instagram",
+    "followers": 9,
+    "country": "Rusia"
+  },
+  {
+    "name": "Shawn Mendes",
+    "username": "@shawnmendes",
+    "platform": "Instagram",
+    "followers": 71,
+    "country": "Kanada"
+  },
+  {
+    "name": "Selena Gomez",
+    "username": "@selenagomez",
+    "platform": "Instagram",
+    "followers": 425,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Khaby Lame",
+    "username": "@khaby.lame",
+    "platform": "TikTok",
+    "followers": 162,
+    "country": "Italia"
+  },
+  {
+    "name": "Miley Cyrus",
+    "username": "@mileycyrus",
+    "platform": "Instagram",
+    "followers": 216,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Zlatan Ibrahimović",
+    "username": "@iamzlatanibrahimovic",
+    "platform": "Instagram",
+    "followers": 62,
+    "country": "Swedia"
+  },
+  {
+    "name": "Burak Özdemir",
+    "username": "@cznburak",
+    "platform": "TikTok",
+    "followers": 74,
+    "country": "Turki"
+  },
+  {
+    "name": "Chiara Ferragni",
+    "username": "@chiaraferragni",
+    "platform": "Instagram",
+    "followers": 29,
+    "country": "Italia"
+  },
+  {
+    "name": "LeBron James",
+    "username": "@kingjames",
+    "platform": "Instagram",
+    "followers": 159,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Spencer X",
+    "username": "@spencerx",
+    "platform": "TikTok",
+    "followers": 54,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Rihanna",
+    "username": "@badgalriri",
+    "platform": "Instagram",
+    "followers": 152,
+    "country": "Barbados"
+  },
+  {
+    "name": "Ariana Grande",
+    "username": "@arianagrande",
+    "platform": "Instagram",
+    "followers": 378,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Kim Kardashian",
+    "username": "@kimkardashian",
+    "platform": "Instagram",
+    "followers": 362,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Huda Kattan",
+    "username": "@hudabeauty",
+    "platform": "Instagram",
+    "followers": 54,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "RM",
+    "username": "@rkive",
+    "platform": "Instagram",
+    "followers": 46,
+    "country": "Korea Selatan"
+  },
+  {
+    "name": "Zendaya",
+    "username": "@zendaya",
+    "platform": "Instagram",
+    "followers": 183,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "SUGA",
+    "username": "@agustd",
+    "platform": "Instagram",
+    "followers": 49,
+    "country": "Korea Selatan"
+  },
+  {
+    "name": "Paulo Dybala",
+    "username": "@paulodybala",
+    "platform": "Instagram",
+    "followers": 58,
+    "country": "Argentina"
+  },
+  {
+    "name": "Atta Halilintar",
+    "username": "@attahalilintar",
+    "platform": "YouTube",
+    "followers": 31,
+    "country": "Indonesia"
+  },
+  {
+    "name": "Kevin Hart",
+    "username": "@kevinhart4real",
+    "platform": "Instagram",
+    "followers": 179,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Cristiano Ronaldo",
+    "username": "@cristiano",
+    "platform": "Instagram",
+    "followers": 635,
+    "country": "Portugal"
+  },
+  {
+    "name": "Baim Wong",
+    "username": "@baimwong",
+    "platform": "YouTube",
+    "followers": 21,
+    "country": "Indonesia"
+  },
+  {
+    "name": "Domelipa",
+    "username": "@domelipa",
+    "platform": "TikTok",
+    "followers": 75,
+    "country": "Meksiko"
+  },
+  {
+    "name": "Gisella Anastasia",
+    "username": "@gisel_la",
+    "platform": "Instagram",
+    "followers": 40,
+    "country": "Indonesia"
+  },
+  {
+    "name": "Bella Poarch",
+    "username": "@bellapoarch",
+    "platform": "TikTok",
+    "followers": 94,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Ayu Ting Ting",
+    "username": "@ayutingting92",
+    "platform": "Instagram",
+    "followers": 55,
+    "country": "Indonesia"
+  },
+  {
+    "name": "Drake",
+    "username": "@champagnepapi",
+    "platform": "Instagram",
+    "followers": 145,
+    "country": "Kanada"
+  },
+  {
+    "name": "Logan Paul",
+    "username": "@loganpaul",
+    "platform": "YouTube",
+    "followers": 23,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "BLACKPINK Official",
+    "username": "@blackpinkofficial",
+    "platform": "Instagram",
+    "followers": 58,
+    "country": "Korea Selatan"
+  },
+  {
+    "name": "Jimin",
+    "username": "@j.m",
+    "platform": "Instagram",
+    "followers": 53,
+    "country": "Korea Selatan"
+  },
+  {
+    "name": "Jason Derulo",
+    "username": "@jasonderulo",
+    "platform": "TikTok",
+    "followers": 58,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Kylian Mbappé",
+    "username": "@k.mbappe",
+    "platform": "Instagram",
+    "followers": 120,
+    "country": "Prancis"
+  },
+  {
+    "name": "Ellen DeGeneres",
+    "username": "@theellenshow",
+    "platform": "Instagram",
+    "followers": 139,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Prilly Latuconsina",
+    "username": "@prillylatuconsina96",
+    "platform": "Instagram",
+    "followers": 55,
+    "country": "Indonesia"
+  },
+  {
+    "name": "Jacksepticeye",
+    "username": "@jacksepticeye",
+    "platform": "YouTube",
+    "followers": 30,
+    "country": "Irlandia"
+  },
+  {
+    "name": "Dwayne Johnson",
+    "username": "@therock",
+    "platform": "Instagram",
+    "followers": 396,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Addison Rae",
+    "username": "@addisonre",
+    "platform": "TikTok",
+    "followers": 88,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "NikkieTutorials",
+    "username": "@nikkietutorials",
+    "platform": "YouTube",
+    "followers": 19,
+    "country": "Belanda"
+  },
+  {
+    "name": "Taylor Swift",
+    "username": "@taylorswift",
+    "platform": "Instagram",
+    "followers": 283,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Markiplier",
+    "username": "@markiplier",
+    "platform": "YouTube",
+    "followers": 36,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Rosalía",
+    "username": "@rosalia.vt",
+    "platform": "Instagram",
+    "followers": 27,
+    "country": "Spanyol"
+  },
+  {
+    "name": "Jennifer Lopez",
+    "username": "@jlo",
+    "platform": "Instagram",
+    "followers": 252,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Neymar Jr",
+    "username": "@neymarjr",
+    "platform": "Instagram",
+    "followers": 223,
+    "country": "Brasil"
+  },
+  {
+    "name": "Billie Eilish",
+    "username": "@billieeilish",
+    "platform": "Instagram",
+    "followers": 119,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Jennie",
+    "username": "@jennierubyjane",
+    "platform": "Instagram",
+    "followers": 85,
+    "country": "Korea Selatan"
+  },
+  {
+    "name": "Shakira",
+    "username": "@shakira",
+    "platform": "Instagram",
+    "followers": 90,
+    "country": "Kolombia"
+  },
+  {
+    "name": "Laudya Cynthia Bella",
+    "username": "@laudyacynthiabella",
+    "platform": "Instagram",
+    "followers": 38,
+    "country": "Indonesia"
+  },
+  {
+    "name": "Kylie Jenner",
+    "username": "@kyliejenner",
+    "platform": "Instagram",
+    "followers": 398,
+    "country": "Amerika Serikat"
+  },
+  {
+    "name": "Nicki Minaj",
+    "username": "@nickiminaj",
+    "platform": "Instagram",
+    "followers": 228,
+    "country": "Trinidad dan Tobago"
+  },
+  {
+    "name": "Jin",
+    "username": "@jin",
+    "platform": "Instagram",
+    "followers": 48,
+    "country": "Korea Selatan"
+  }
+]
