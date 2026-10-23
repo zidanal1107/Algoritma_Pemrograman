@@ -1,6 +1,8 @@
 package demo.module2;
 
-public class InsertionSort {
+import demo.Print;
+
+public class InsertionSort implements Print {
     private int[] data;
     private String[] name;
 
