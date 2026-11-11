@@ -6,6 +6,8 @@ import demo.module1.BubbleSort;
 import demo.module1.SelectionSort;
 import demo.module2.InsertionSort;
 import demo.module2.ShellSort;
+import demo.module3.MergeSort;
+import demo.module3.QuickSort;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -19,9 +21,11 @@ public class DemoMain {
         SelectionSort ss = new SelectionSort();
         InsertionSort is = new InsertionSort();
         ShellSort shs = new ShellSort();
+        MergeSort ms = new MergeSort();
+        QuickSort qs = new QuickSort();
 
         System.out.printf("--- %s Menu ---\n",sortOrder);
-        System.out.println("1. Bubble sort.\n2. Selection sort.\n3. Insertion sort.\n4. Shell sort.");
+        System.out.println("1. Bubble sort.\n2. Selection sort.\n3. Insertion sort.\n4. Shell sort.\n5. Merge sort.\n6. Quick sort.");
         System.out.print("Enter choice: ");
         int optionAs = in.nextInt();
         in.nextLine();
@@ -32,6 +36,8 @@ public class DemoMain {
                 case 2 -> ss.Ascending(data,name);
                 case 3 -> is.Ascending(data,name);
                 case 4 -> shs.Ascending(data,name);
+                case 5 -> ms.Ascending(data,name);
+                case 6 -> qs.Ascending(data,name);
                 default -> System.out.println("Invalid choice");
             }
         } else {
@@ -40,6 +46,8 @@ public class DemoMain {
                 case 2 -> ss.Descending(data,name);
                 case 3 -> is.Descending(data,name);
                 case 4 -> shs.Descending(data,name);
+                case 5 -> ms.Descending(data,name);
+                case 6 -> qs.Descending(data,name);
                 default -> System.out.println("Invalid choice");
             }
         }
@@ -61,7 +69,6 @@ public class DemoMain {
         System.out.print("Select option (1-3): ");
         int option = in.nextInt();
         in.nextLine();
-
 
         String sort;
         if (option == 1) {

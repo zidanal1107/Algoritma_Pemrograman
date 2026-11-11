@@ -1,8 +1,6 @@
 package demo.module1;
 
-import demo.Print;
-
-public class BubbleSort implements Print {
+public class BubbleSort {
     private int[] data;
     private String[] name;
 

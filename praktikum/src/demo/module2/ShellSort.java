@@ -1,8 +1,6 @@
 package demo.module2;
 
-import demo.Print;
-
-public class ShellSort implements Print {
+public class ShellSort {
     private int[] data;
     private String[] name;
 

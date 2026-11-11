@@ -1,8 +1,6 @@
 package demo.module1;
 
-import demo.Print;
-
-public class SelectionSort implements Print {
+public class SelectionSort {
     private int[] data;
     private String[] name;
 
